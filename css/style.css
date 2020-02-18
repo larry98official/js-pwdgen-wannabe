@@ -3,11 +3,23 @@
     padding:0;
     box-sizing: border-box;
 }
-#container {
-    display:flex;
-    height:100vh;
+
+#password{
+    text-align: center;
+    font-size: 18px;
+    background-color: pink;
 }
 
-#container .centra {
-    margin: auto;
+div#container{
+    display:none;
+}
+
+div#container.visibile{
+    display: block;
+}
+
+.centra{
+    font-size:25px;
+    display: block;
+    text-align: center;
 }
